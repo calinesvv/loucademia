@@ -1,0 +1,96 @@
+<!--cabeçalho inicio-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charsert="ISO- 8859-1">
+    <meta name="viewport">
+    <meta name="keywords" content="html5, tecnologia">
+
+    <link rel="stylesheet" type="text/css" href="loucademia.css">
+    <title> loucademia</title>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="Loucademia_Logotipo.png">
+        <nav>
+            <div>
+                <a href="index.html"> Novo Aluno</a> <br>
+                <a href="pesquisadealuno.html"> Pesquisa de aluno</a><br>
+                <a href="controledeacesso.html"> controle de acesso</a><br>
+                <a href="relatoriosdeentradaesaida.html"> relatorio de entrada e saidas</a><br>
+                <a href="relatoriosdesituacoes.html"> relatorio de situações</a><br>
+            </div>
+        </nav>
+    </header>
+    <h1> Relatorio de Entrada e Saidas</h1>
+    <div id="infoMessage">
+        (Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+    </div>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend> Parametros de Entrada e Saidas</legend>
+
+            <label for="id"> ID:</label><br>
+            <input type="text" name="id" id="id"><br>
+
+            <label for="dataInicial"> Data Inicial:</label><br>
+            <input type="date" name="datainicial" id="datainicial"><br>
+
+            <label for="datafinal"> Data final:</label><br>
+            <input type="date" name="datafinal" id="datafinal"><br>
+
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Gerar">
+
+    </form>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>ENTRADA</th>
+            <th> SAIDA</th>
+            <th>DURAÇÃO</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>ANDRE</td>
+            <td>05/03/2020 9:15:10</td>
+            <td> 05/03/2020 9:05</td>
+            <td>10:00:00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ANDRE</td>
+            <td>05/03/2020 9:00:10 </td>
+            <td> 05/03/2020 9:00</td>
+            <td>00:20:00</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ANDRE</td>
+            <td>05/03/2020 9:00:00</td>
+            <td> 05/03/2020 10:00</td>
+            <td>01:00:00</td>
+        </tr>
+
+
+
+    </table>
+
+
+</body>
+
+</html>

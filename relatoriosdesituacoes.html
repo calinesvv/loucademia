@@ -1,0 +1,103 @@
+<!--cabeçalho inicio-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charsert="ISO- 8859-1">
+    <meta name="viewport">
+    <meta name="keywords" content="html5, tecnologia">
+
+    <link rel="stylesheet" type="text/css" href="loucademia.css">
+    <title> loucademia</title>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="Loucademia_Logotipo.png">
+        <nav>
+            <div>
+                <a href="index.html">Novo Aluno</a> <br>
+                <a href="pesquisadealuno.html"> Pesquisa de aluno</a><br>
+                <a href="controledeacesso.html"> controle de acesso</a><br>
+                <a href="relatoriosdeentradaesaida.html"> relatorio de entrada e saidas</a><br>
+                <a href="relatoriosdesituacoes.html"> relatorio de situações</a><br>
+            </div>
+        </nav>
+    </header>
+    <!--cabeçalho fim-->
+    <h1> Relatorio de situações</h1>
+    <div id="infoMessage">
+        (Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+    </div>
+
+    <br>
+    <form>
+        <fieldset>
+            <legend> Parametros da Pesquisa</legend>
+
+            <label for="id"> Situação:</label><br>
+            <select name="situação" id="Situação">
+                <option>ativo</option>
+                <option>inativo</option>
+                <option> com pendência</option>
+            </select><br>
+
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Gerar">
+
+    </form>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>SITUAÇÃO</th>
+            <th>CELULAR</th>
+            <th>FIXO</th>
+            <th>AÇÕES</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>andre</td>
+            <td>ativo</td>
+            <td>12347859</td>
+            <td>123.1234</td>
+            <td> <input type="button" value="Editar"> </td>
+
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>cleber</td>
+            <td>pendente</td>
+            <td>12347859</td>
+            <td>123.1234</td>
+            <td> <input type="button" value="Editar"> </td>
+
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ze fit</td>
+            <td>inativo</td>
+            <td>12347859</td>
+            <td>123.1234</td>
+            <td> <input type="button" value="Editar"> </td>
+
+
+        </tr>
+
+
+
+
+
+    </table>
+
+
+</body>
+
+</html>

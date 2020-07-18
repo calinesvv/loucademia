@@ -1,0 +1,122 @@
+<!--cabeçalho inicio-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charsert="ISO- 8859-1">
+    <meta name="viewport">
+    <meta name="keywords" content="html5, tecnologia">
+
+    <link rel="stylesheet" type="text/css" href="loucademia.css">
+    <title> loucademia</title>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="Loucademia_Logotipo.png">
+        <nav>
+            <div>
+                <a href="index.html">Novo Aluno</a> <br>
+                <a href="pesquisadealuno.html"> Pesquisa de aluno</a><br>
+                <a href="controledeacesso.html"> controle de acesso</a><br>
+                <a href="relatoriosdeentradaesaida.html"> relatorio de entrada e saidas</a><br>
+                <a href="relatoriosdesituacoes.html"> relatorio de situações</a><br>
+            </div>
+        </nav>
+    </header>
+    <!--cabeçalho fim-->
+    <h1> Pesquisa de Aluno</h1>
+    <div id="infoMessage">
+        (Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+    </div>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend> Parametros da Pesquisa</legend>
+            <label for="id"> ID:</label><br>
+            <input type="text" name="id" id="id"><br>
+
+            <label for="nome"> Nome:</label><br>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="rg"> RG:</label><br>
+            <input type="text" name="rg" id="rg"><br>
+
+            <label for="telefonedd">TELEFONE </label><br>
+            <input type="tel" name="telefoneodd" id="telefonedd">
+            <input type="tel" name="telefonenumero" id="telefonumero">
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Pesquisar">
+    </form>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>RG</th>
+            <th>E-MAIL</th>
+            <th>SITUAÇÃO</th>
+            <th>AÇÕES</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>andre</td>
+            <td>121212121</td>
+            <td>andre.@gmail.com</td>
+            <td>ativo</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sr maromba</td>
+            <td>212121212</td>
+            <td>maromba@gmail.com</td>
+            <td>ativo</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td> ze fit</td>
+            <td>212121212</td>
+            <td>zefit@gmail.com</td>
+            <td>pendente</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>cleber</td>
+            <td>221212121</td>
+            <td>cleber@gmail.com</td>
+            <td>inativo</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

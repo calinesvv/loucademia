@@ -1,0 +1,128 @@
+<!--cabeçalho inicio-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charsert="ISO- 8859-1">
+    <meta name="viewport">
+    <meta name="keywords" content="html5, tecnologia">
+    <link rel="stylesheet" type="text/css" href="loucademia.css">
+
+    <title> loucademia</title>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="Loucademia_Logotipo.png">
+        <nav>
+            <div>
+                <a href="index.html"> Novo Aluno</a> <br>
+                <a href="pesquisadealuno.html"> Pesquisa de aluno</a><br>
+                <a href="controledeacesso.html"> controle de acesso</a><br>
+                <a href="relatoriosdeentradaesaida.html"> relatorio Entrada e Saidas</a><br>
+                <a href="relatoriosdesituacoes.html"> relatorio de situações</a><br>
+            </div>
+        </nav>
+    </header>
+    <!--cabeçalho fim-->
+    <h1> Novo Aluno</h1>
+    <div id="infoMessage">
+        (Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+    </div>
+    <br>
+    <form>
+        <fieldset>
+
+            <legend> Dados Pessoais</legend>
+
+            <label for="nome"> Nome:</label><br>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="sexo">Sexo</label><br>
+
+            <select name="sexo" id="sexo">
+                <option>Masculino</option>
+                <option>Feminino</option>
+            </select><br>
+
+            <label for="rg"> RG:</label><br>
+            <input type="text" name="rg" id="rg"><br>
+
+            <label for="Data de Nascimento"> Data de Nascimento:</label><br>
+            <input type="date" name="Data de Nascimento" id="Data de Nascimento">
+
+        </fieldset>
+        <br>
+
+        <fieldset>
+
+            <legend> Situação</legend>
+            Situaçao <br>
+
+
+            <select name="situação" id="Situação">
+                <option>ativo</option>
+                <option>inativo</option>
+                <option> com pendência</option>
+            </select><br>
+
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="rua">RUA :</label><br>
+            <input type="text" name="rua" id="rua"><br>
+
+            <label for="numero">Número :</label><br>
+            <input type="text" name="numero" id="numero"><br>
+
+            <label for="complemento">COMPLEMENTO :</label><br>
+            <input type="text" name="complemento" id="complemento"> <br>
+
+            <label for="cidade"> CIDADE:</label><br>
+            <input type="text" name="cidade" id="cidade"><br>
+
+            <label for="estado"> ESTADO:</label><br>
+            <select name="estado" id="estado">
+                <option> (lista)</option>
+            </select><br>
+
+            <label for="cep"> CEP:</label><br>
+            <input type="text" name="cep" id="cep">
+
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend> CONTATO</legend>
+
+            <label for="email">E-MAIL</label><br>
+            <input type="text" name="email" id="email"><br>
+
+            <label for="telefonecelulardd">TELEFONE CELULAR</label><br>
+            <input type="tel" name="telefonecelulardd" id="telefonecelulardd">
+            <input type="tel" name="telefonecelularnumero" id="telefonecelularnumero"><br>
+
+            <label for="telefonefixodd">TELEFONE FIXO</label><br>
+            <input type="tel" name="telefonefixodd" id="telefonefixodd">
+            <input type="tel" name="telefonefixonumero" id="telefonefixonumero">
+
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Gravar">
+        <input type="button" value="Relatorios de acessos">
+
+    </form>
+    <!--rodape inicio-->
+
+
+</body>
+
+</html>
+<!---rodape fim-->
